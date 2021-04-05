@@ -1,0 +1,60 @@
+body
+{
+  color: white;
+  background: #c0d3ff;
+  padding-bottom: 100px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 25px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+label{
+  background-color: white;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 10px;
+  color: black;
+}
+.capture_img {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.capture_img:hover {background-color: #3e8e41}
+
+.capture_img:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
